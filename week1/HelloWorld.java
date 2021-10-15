@@ -1,3 +1,5 @@
+package week1;
+
 public class HelloWorld {
     // Type your main code here
 
