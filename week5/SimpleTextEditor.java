@@ -14,21 +14,21 @@ public class SimpleTextEditor {
 
         for (int i = 0; i < n; i++) {
             int type = sc.nextInt();
-            if (type == 1) {
+            if (type == 1) {                            // append
                 String w = sc.next();
                 s += w;
                 stack.push(s);
             }
-            if(type == 2) {
+            if(type == 2) {                             // delete
                 int K = sc.nextInt();
                 s = s.substring(0, s.length() - K);
                 stack.push(s);
             }
-            if(type == 3) {
+            if(type == 3) {                             // print
                 int k = sc.nextInt();
                 System.out.println(s.charAt(k-1));
             }
-            if (type == 4) {
+            if (type == 4) {                            // undo
                 stack.pop();
                 s = stack.peek();
             }
