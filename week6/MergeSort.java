@@ -29,7 +29,7 @@ public class MergeSort {
     //giatribangnhau
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
-        In in = new In("D:\\DSA\\Coursera\\algs4-data\\sxxuoi.txt");
+        In in = new In("D:\\DSA\\Coursera\\algs4-data\\1Mints.txt");
         int[] a = in.readAllInts();
 
         int [] aux = new int[a.length];

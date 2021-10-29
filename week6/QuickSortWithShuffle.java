@@ -39,7 +39,7 @@ public class QuickSortWithShuffle {
     //giatribangnhau
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
-        In in = new In("D:\\DSA\\Coursera\\algs4-data\\giatribangnhau.txt");
+        In in = new In("D:\\DSA\\Coursera\\algs4-data\\1Mints.txt");
         int[] a = in.readAllInts();
 
         StdRandom.shuffle(a);
