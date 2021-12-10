@@ -38,5 +38,8 @@ public class MergeSort {
 
         long end = System.currentTimeMillis();
         System.out.println("Running time: " + (end - start) );
+        for (int i = 0; i < a.length; i++) {
+            System.out.println(a[i]);
+        }
     }
 }

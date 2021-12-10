@@ -1,7 +1,5 @@
 package week8;
 
-import week7.JavaSort;
-
 import java.util.*;
 
 public class JavaPriorityQueue {
